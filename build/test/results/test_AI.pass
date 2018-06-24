@@ -1,0 +1,61 @@
+---
+:source:
+  :path: test
+  :file: test_AI.c
+:successes:
+- :test: test_string_compare_given_Hello_and_Hello_expect_1
+  :line: 13
+  :message: ''
+- :test: test_string_compare_given_MuMbo_juMbO_and_mambo_Jumbo_expect_1
+  :line: 18
+  :message: ''
+- :test: test_string_compare_given_Rambo_and_Rambu_expect_0
+  :line: 23
+  :message: ''
+- :test: test_string_compare_given_Hello_and_Hell_expect_0
+  :line: 28
+  :message: ''
+- :test: test_string_compare_given_Hell_and_Hello_expect_0
+  :line: 33
+  :message: ''
+- :test: test_given_sentence_contains_my_name_is_or_not
+  :line: 38
+  :message: ''
+- :test: test_given_My_name_is_Wong_Yik_Kai_expect_Wong_Yik_Kai_is_extracted
+  :line: 43
+  :message: ''
+- :test: test_given_Nice_to_meet_you_and_Wong_Yik_Kai_expect_they_are_concatenated
+  :line: 49
+  :message: ''
+- :test: test_speakToAIMachine_Given_Hello_Hi_Hey_Greetings_expect_Hi_there_my_name_is_themachine_What_is_yours
+  :line: 55
+  :message: ''
+- :test: test_speakToAIMachine_Given_Other_Than_Hello_Hi_Hey_Greetings_expect_Error
+  :line: 64
+  :message: ''
+- :test: test_speakToAIMachine2_Given_A_Name_From_User_expect_Nice_To_Meet_You_Username
+  :line: 73
+  :message: ''
+- :test: test_speakToAIMachine2_Given_Wrong_Reply_expect_Error
+  :line: 82
+  :message: ''
+- :test: test_speakToAIMachine3_Given_Bye_expect_Goodbye_Have_a_Nice_Day
+  :line: 91
+  :message: ''
+- :test: test_speakToAIMachine3_Given_Other_Than_Bye_expect_Error
+  :line: 100
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 14
+  :passed: 14
+  :failed: 0
+  :ignored: 0
+:stdout:
+- Hi there! My name is TheMachine. What is yours?
+- Error!
+- Nice to meet you, Wong Yik Kai.
+- Error!
+- Goodbye. Have a nice day!
+- Error!
